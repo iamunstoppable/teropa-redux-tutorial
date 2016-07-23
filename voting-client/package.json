@@ -7,7 +7,10 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js \"test/**/*@(.js|.jsx)\"",
     "test:watch": "npm run test -- --watch",
     "webpack": "webpack",
-    "webpack-dev-server": "webpack-dev-server"
+    "packy": "webpack",
+    "webpack-dev-server": "webpack-dev-server",
+    "hello": "echo hello",
+    "ls": "ls"
   },
   "keywords": [],
   "author": "",
@@ -37,6 +40,8 @@
     "react-addons-pure-render-mixin": "^15.1.0",
     "react-addons-test-utils": "^15.1.0",
     "react-dom": "^15.1.0",
-    "react-router": "^2.5.2"
+    "react-redux": "^4.4.5",
+    "react-router": "^2.5.2",
+    "redux": "^3.5.2"
   }
 }
