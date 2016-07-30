@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Agency/.nvm/versions/node/v5.11.1/bin/node',
+1 verbose cli   '/Users/Agency/.nvm/versions/node/v5.11.1/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'webpack-dev-servert' ]
+2 info using npm@3.9.5
+3 info using node@v5.11.1
+4 verbose stack Error: missing script: webpack-dev-servert
+4 verbose stack     at run (/Users/Agency/.nvm/versions/node/v5.11.1/lib/node_modules/npm/lib/run-script.js:150:19)
+4 verbose stack     at /Users/Agency/.nvm/versions/node/v5.11.1/lib/node_modules/npm/lib/run-script.js:60:5
+4 verbose stack     at /Users/Agency/.nvm/versions/node/v5.11.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:356:5
+4 verbose stack     at checkBinReferences_ (/Users/Agency/.nvm/versions/node/v5.11.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:320:45)
+4 verbose stack     at final (/Users/Agency/.nvm/versions/node/v5.11.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:354:3)
+4 verbose stack     at then (/Users/Agency/.nvm/versions/node/v5.11.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:124:5)
+4 verbose stack     at ReadFileContext.<anonymous> (/Users/Agency/.nvm/versions/node/v5.11.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:295:20)
+4 verbose stack     at ReadFileContext.callback (/Users/Agency/.nvm/versions/node/v5.11.1/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16)
+4 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:324:13)
+5 verbose cwd /Users/Agency/metal-toad/teropa-redux-tutorial/voting-client
+6 error Darwin 15.5.0
+7 error argv "/Users/Agency/.nvm/versions/node/v5.11.1/bin/node" "/Users/Agency/.nvm/versions/node/v5.11.1/bin/npm" "run" "webpack-dev-servert"
+8 error node v5.11.1
+9 error npm  v3.9.5
+10 error missing script: webpack-dev-servert
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
