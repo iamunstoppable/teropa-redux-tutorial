@@ -23,8 +23,3 @@ function mapStateToProps(state) {
 }
 
 export const VotingContainer = connect(mapStateToProps)(Voting);
-
-// closure 
-	// connect(mapStateToProps)(Voting);
-
-	// export default Voting;
